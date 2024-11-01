@@ -1,2 +1,3 @@
 # Tugas-2
-Tugas membuat form dan tabel menggunakan bahasa markup HTML dan CSS 
+Faris Kahlil Haidar - X PPLG III / 13
+Tugas membuat form dan tabel menggunakan bahasa markup HTML dan CSS.
