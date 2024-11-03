@@ -4,7 +4,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    overflow: hidden;
+}
+
+/* Kode ini biar bisa di scroll di mobile view yang panjang layar kurang dari 400px bu hehe */
+@media (min-width: 400px) {
+    body {
+        overflow: hidden;
+    }
 }
 
 .box {

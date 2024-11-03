@@ -19,6 +19,13 @@ body {
     box-shadow: 4px 4px rgba(255, 255, 255, 0.4);
 }
 
+/* karena tabel nya gabisa menyesuaikan di layar kecil, jadi ini fitur scroll buat layar kecil bu hehe*/
+@media (max-width: 500px) {
+    .box {
+        overflow: scroll;
+    }
+}
+
 td, th, table {
     border: solid 1px white;
     border-collapse: collapse;
