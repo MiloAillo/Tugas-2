@@ -26,6 +26,12 @@ body {
     }
 }
 
+@media (max-height: 500px) {
+    .box {
+        overflow: scroll;
+    }
+}
+
 td, th, table {
     border: solid 1px white;
     border-collapse: collapse;

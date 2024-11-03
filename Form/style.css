@@ -6,10 +6,16 @@ body {
     min-height: 100vh;
 }
 
-/* Kode ini biar bisa di scroll di mobile view yang panjang layar kurang dari 400px bu hehe */
+/* Kode ini biar bisa di scroll di mobile view yang panjang layar kurang dari 400px atau tinggi nya kurang dari 680px (mobile landsape) bu hehe */
 @media (min-width: 400px) {
     body {
         overflow: hidden;
+    }
+}
+
+@media (max-height: 680px) {
+    body {
+        overflow: scroll;
     }
 }
 
